@@ -24,7 +24,6 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
-    <li><a href="#running-the-game">Running The Game</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -97,7 +96,7 @@ Navigate to the project directory and install the dependencies:
     1. **Create a Twilio Account:**
     - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
     - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
-
+    <br/>
 
     2. **Create the `.env` file:**
     - In the project's root directory, create a new file named `.env`.
