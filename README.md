@@ -100,11 +100,11 @@ Navigate to the project directory and install the dependencies:
 
 ### Set Up Twilio
 
-1. **Create a Twilio Account**
+1. **Create a Twilio Account:**
   - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
   - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
 
-2. **Create the `.env` file**
+2. **Create the `.env` file:**
   - In the project's root directory, create a new file named `.env`.
   - Add the following lines to the `.env` file with your Twilio credentials:
   ```env
