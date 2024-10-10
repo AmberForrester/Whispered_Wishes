@@ -39,7 +39,6 @@
 
 <p align='center'>No more scrambling to remember dates or last-minute generic texts Whispered Wishes has got you covered. Whether it's a spontaneous note to a friend or a heartfelt message to a family member, this project helps you make those connections truly unforgettable. With effortless setup and seamless automation, you're just a few clicks away from becoming the friend or family member who never forgets. Ready to turn everyday moments into cherished memories? Let Whispered Wishes do the whispering, while you enjoy the smiles!</p>
 <br />
-<br />
 A good understanding of Python and Pygame would be beneficial to helping you create this project. However, it is always good practice to refer to the Documentation available when developing ***any*** project. 
 
 _Please refer to the [Python Documentation](https://docs.python.org/3/) for your reference._
