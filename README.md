@@ -24,6 +24,7 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -144,13 +145,19 @@ python main.py
 8. **Testing**
 
   - ***Test the Error Handling:*** Add test cases with missing or invalid data in the `contacts.json` file to see how the error handling works.
+  - ***Confirm SMS Delivery:*** Verify that you receive SMS notifications on your phone for contacts with today's event.
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
 
 
+### Troubleshooting
 
+- ***SMS Not Sent***: Double-check your Twilio credentials and ensure your Twilio account is active.
+- ***Invalid Date Format***: Ensure all event dates in `contacts.json` are in the format `YYYY-MM-DD`.
+- ***Virtual Environment Issues***: Make sure you are working within the activated virtual environment.
 
+<p align="right">(<a href="#readme-top">top of page</a>)</p>
 
 
 
