@@ -4,16 +4,16 @@
 
 <div align='center'>
 
-<img src='\images\Whispered_Wishes_Text_Reminder.png' alt='Picture of the Whispered Wishes event reminder application sending a personalized text reminders for birthdays, anniversaries, and other special events using Twilio.'>
+<img src='\images\Whispered_Wishes_Text_Reminder.PNG' alt='Picture of the Whispered Wishes event reminder application sending a personalized text reminders for birthdays, anniversaries, and other special events using Twilio.'>
 
 <p align='center'>Whispered Wishes is a Python-based event reminder application that sends personalized SMS reminders for birthdays, anniversaries, and other special events using Twilio. The goal is to help you stay connected to your loved ones by sending you reminders to celebrate their special moments.<br/>
 
 <a href='https://github.com/AmberForrester/Whispered_Wishes'><strong>Source Code »</strong></a>
 <br />
 <br />
-<a href='https://github.com/AmberForrester/Tetris_Game/issues/new?assignees=&labels=bug&projects=&template=bug-report-%F0%9F%90%9E.md'>Report Bug</a>
+<a href='https://github.com/AmberForrester/Whispered_Wishes/issues/new?assignees=&labels=bug&projects=&template=bug-report-%F0%9F%90%9E.md'>Report Bug</a>
 .
-<a href='https://github.com/AmberForrester/Tetris_Game/issues/new?assignees=&labels=enhancement&projects=&template=feature-request-%F0%9F%9A%80.md'>Request Feature</a>
+<a href='https://github.com/AmberForrester/Whispered_Wishes/issues/new?assignees=&labels=enhancement&projects=&template=feature-request-%F0%9F%9A%80.md'>Request Feature</a>
 </p>
 </div>
 
@@ -34,7 +34,9 @@
 
 
 ## About This Project
-This game was built using Python as the programming language and its cross-platform set of modules Pygame, used to create video games! This partnership creates the perfect demonstration of a game development library with the various functions for graphics, audio, and input handling that Pygame has to offer. 
+Whispered Wishes is more than just a reminder app — it's your personal memory whisperer, designed to make sure you never miss a chance to celebrate the people who matter most. Powered by the magic of Twilio, Whispered Wishes sends you gentle nudges to connect with your loved ones on their special days, like birthdays, anniversaries, or any moment worth celebrating. But it doesn't stop there! This app goes beyond the basics, prompting you with heartwarming memories and inside jokes to make each message you send even more meaningful.
+
+No more scrambling to remember dates or last-minute generic texts Whispered Wishes has got you covered. Whether it's a spontaneous note to a friend or a heartfelt message to a family member, this project helps you make those connections truly unforgettable. With effortless setup and seamless automation, you're just a few clicks away from becoming the friend or family member who never forgets. Ready to turn everyday moments into cherished memories? Let Whispered Wishes do the whispering, while you enjoy the smiles! 
 <br />
 <br />
 A good understanding of Python and Pygame would be beneficial to helping you create this project. However, it is always good practice to refer to the Documentation available when developing ***any*** project. 
@@ -112,14 +114,8 @@ Navigate to the project directory and install the dependencies:
 
 
 
-## Points Breakdown
-> [!Note] 
-> 500 points = Triple Line Clear <br>
-> 300 points = Double Line Clear <br>
-> 100 points = Single Line Clear <br>
-> 1 point = User using the Down Arrow to Move down fast
 
-<p align="right">(<a href="#readme-top">top of page</a>)</p>
+
 
 
 
