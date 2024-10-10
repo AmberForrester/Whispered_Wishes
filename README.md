@@ -27,7 +27,6 @@
     <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 <br />
@@ -184,21 +183,5 @@ I appreciate you!
 ### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">top of page</a>)</p>
-
-
-
-### Acknowledgments
-
-Please take some time to check out the links below! I found value in each and every one of them while creating this project, so my hope is that you will to!
-
-* [Creating Tetris in Python with pygame](https://youtu.be/nF_crEtmpBo?si=SvdgSXpcOYEvCOl0) - Special thank you to _Programming With Nick_ for the tutorial!
-* [More Music by Spyros](https://assetstore.unity.com/) - Game Sounds 
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
-* [Basic Syntax: Markdown Guide](https://www.markdownguide.org/basic-syntax/#reference-style-links)
-* [Formatting Syntax: GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#animal-bug)
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
