@@ -92,7 +92,7 @@ Navigate to the project directory and install the dependencies:
 
 ### Project Structure
 
-![Project Structure](/images/Tetris_Game_Structure.png)
+![Project Structure](/images/WW_Structure.png)
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
