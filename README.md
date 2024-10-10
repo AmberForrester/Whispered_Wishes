@@ -86,35 +86,27 @@ Navigate to the project directory and install the dependencies:
   pip install -r requirements.txt
   ```
 
-<p align="right">(<a href="#readme-top">top of page</a>)</p>
-
-
-
 ### Project Structure
 
 ![Project Structure](/images/WW_Structure.png)
 
-<p align="right">(<a href="#readme-top">top of page</a>)</p>
+4. **Set Up Twilio**
 
+    1. **Create a Twilio Account:**
+    - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
+    - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
 
+    2. **Create the `.env` file:**
+    - In the project's root directory, create a new file named `.env`.
+    - Add the following lines to the `.env` file with your Twilio credentials:
+    ```env
+    TWILIO_ACCOUNT_SID=your_account_sid_here
+    TWILIO_AUTH_TOKEN=your_auth_token_here
+    TWILIO_PHONE_NUMBER=your_twilio_number_here
+    MY_PHONE_NUMBER=your_personal_phone_number_here
+    ```
 
-### Set Up Twilio
-
-1. **Create a Twilio Account:**
-  - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
-  - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
-
-2. **Create the `.env` file:**
-  - In the project's root directory, create a new file named `.env`.
-  - Add the following lines to the `.env` file with your Twilio credentials:
-  ```env
-  TWILIO_ACCOUNT_SID=your_account_sid_here
-  TWILIO_AUTH_TOKEN=your_auth_token_here
-  TWILIO_PHONE_NUMBER=your_twilio_number_here
-  MY_PHONE_NUMBER=your_personal_phone_number_here
-  ```
-
-3. **Add `.env` to `.gitignore`**
+5. **Add `.env` to `.gitignore`**
 
 > [!CAUTION]
 > To ensure your sensitive information does not get committed to version control:
@@ -126,7 +118,7 @@ Navigate to the project directory and install the dependencies:
 
 This step will prevent the `.env` file from being tracked by Git and keep your sensitive credentials secure. 
 
-4. **Add your contacts**
+6. **Add your contacts**
 
 Create or update the `contacts.json` file in the root directory with your contact details:
 ```json
@@ -140,12 +132,16 @@ Create or update the `contacts.json` file in the root directory with your contac
 ]
 ```
 
-5. **Usage Instructions**
+7. **Usage Instructions**
 
 To start receiving reminders, run the main script:
 ```sh
 python main.py
 ```
+
+8. **Testing**
+
+  - ***Test the Error Handling:***
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
