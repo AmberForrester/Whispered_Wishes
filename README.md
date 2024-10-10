@@ -114,11 +114,17 @@ Navigate to the project directory and install the dependencies:
   MY_PHONE_NUMBER=your_personal_phone_number_here
   ```
 
-3. **How to Navigate the Tetris pieces**
-  - Left Arrow: Move left
-  - Right Arrow: Move right
-  - Down Arrow: Move down fast
-  - Up Arrow: Rotate the piece, and Reset the game if you choose not to click "Play Again?"
+3. **Add `.env` to `.gitignore`**
+
+To ensure your sensitive information does not get committed to version control:
+  - Open (or create) the `.gitignore` file in the root directory.
+  - Add the following line to the file:
+```
+.env
+venv/
+```
+> [!CAUTION]
+> This step will prevent the `.env` file from being tracked by Git and keep your sensitive credentials secure.
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
