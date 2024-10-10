@@ -93,25 +93,25 @@ Navigate to the project directory and install the dependencies:
 4. **Set Up Twilio**
 
     1. **Create a Twilio Account:**
-    - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
-    - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
+      - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
+      - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
 
     2. **Create the `.env` file:**
-    - In the project's root directory, create a new file named `.env`.
-    - Add the following lines to the `.env` file with your Twilio credentials:
-    ```env
-    TWILIO_ACCOUNT_SID=your_account_sid_here
-    TWILIO_AUTH_TOKEN=your_auth_token_here
-    TWILIO_PHONE_NUMBER=your_twilio_number_here
-    MY_PHONE_NUMBER=your_personal_phone_number_here
-    ```
+      - In the project's root directory, create a new file named `.env`.
+      - Add the following lines to the `.env` file with your Twilio credentials:
+      ```env
+      TWILIO_ACCOUNT_SID=your_account_sid_here
+      TWILIO_AUTH_TOKEN=your_auth_token_here
+      TWILIO_PHONE_NUMBER=your_twilio_number_here
+      MY_PHONE_NUMBER=your_personal_phone_number_here
+      ```
 
 5. **Add `.env` to `.gitignore`**
 
 > [!CAUTION]
 > To ensure your sensitive information does not get committed to version control:
-  - Open (or create) the `.gitignore` file in the root directory.
-  - Add the following line to the file:
+    - Open (or create) the `.gitignore` file in the root directory.
+    - Add the following line to the file:
 ```
 .env
 ```
@@ -141,7 +141,7 @@ python main.py
 
 8. **Testing**
 
-  - ***Test the Error Handling:***
+  - ***Test the Error Handling:*** Add test cases with missing or invalid data in the `contacts.json` file to see how the error handling works.
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
