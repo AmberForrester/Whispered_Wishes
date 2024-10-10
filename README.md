@@ -98,18 +98,21 @@ Navigate to the project directory and install the dependencies:
 
 
 
-### Running the Game
+### Set Up Twilio
 
-1. **Ensure the Virtual Environment is activated** (You should see `(venv)` in your terminal prompt.)
-   ```bash
-   git clone https://github.com/yourusername/Tetris_Game.git
-   cd Tetris_Game
-   ```
+1. **Create a Twilio Account**
+  - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
+  - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
 
-2. **Start the Game**
-   ```bash
-   python main.py
-   ```
+2. **Create the `.env` file**
+  - In the project's root directory, create a new file named `.env`.
+  - Add the following lines to the `.env` file with your Twilio credentials:
+  ```env
+  TWILIO_ACCOUNT_SID=your_account_sid_here
+  TWILIO_AUTH_TOKEN=your_auth_token_here
+  TWILIO_PHONE_NUMBER=your_twilio_number_here
+  MY_PHONE_NUMBER=your_personal_phone_number_here
+  ```
 
 3. **How to Navigate the Tetris pieces**
   - Left Arrow: Move left
