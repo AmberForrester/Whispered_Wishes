@@ -126,6 +126,27 @@ Navigate to the project directory and install the dependencies:
 
 This step will prevent the `.env` file from being tracked by Git and keep your sensitive credentials secure. 
 
+4. **Add your contacts**
+
+Create or update the `contacts.json` file in the root directory with your contact details:
+```json
+[
+  {
+        "name": "Alice & Bob",
+        "event_type": "WEDDING ANNIVERSARY",
+        "event_date": "2024-09-15",
+        "memory": "remember when the 3 of you were in high school together, and you always knew one day they would get married?!"
+    }
+]
+```
+
+5. **Usage Instructions**
+
+To start receiving reminders, run the main script:
+```sh
+python main.py
+```
+
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
 
