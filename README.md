@@ -21,6 +21,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-this-project">About This Project</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#running-the-game">Running The Game</a></li>
@@ -48,6 +49,13 @@ _The standard shell of Python, or REPL (Read-Eval-Print Loop) allows you to run 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
 
+## Features
+- Automated SMS reminders for special events like birthdays and anniversaries.
+- Seamless integration with Twilio for sending text messages.
+- Easy-to-manage contact list with personalized memories.
+- Graceful error handling for incomplete or incorrectly formatted data.
+
+
 
 ## Installation
 
@@ -61,23 +69,23 @@ _The standard shell of Python, or REPL (Read-Eval-Print Loop) allows you to run 
 ### Step-by-Step Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/Whispered_Wishes.git
-   cd Whispered_Wishes
-   ```
+  ```bash
+  git clone https://github.com/yourusername/Whispered_Wishes.git
+  cd Whispered_Wishes
+  ```
 
 2. **Set up a Virtual Environment** (Optional but recommended.)
-    ```bash
-    python -m venv venv
-    .\venv\Scripts\Activate
-    ```
+  ```bash
+  python -m venv venv
+  .\venv\Scripts\Activate
+  ```
 
 3. **Install Required Dependencies after activating the Virtual Environment** 
 
 Navigate to the project directory and install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
