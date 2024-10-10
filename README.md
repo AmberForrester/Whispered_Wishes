@@ -4,7 +4,7 @@
 
 <div align='center'>
 
-<img src='\images\Whispered_Wishes_Text_Reminder.PNG' alt='Picture of the Whispered Wishes event reminder application sending a personalized text reminders for birthdays, anniversaries, and other special events using Twilio.'>
+<img src='\images\Twilio_Text_Reminder.PNG' alt='Picture of the Whispered Wishes event reminder application sending a personalized text reminders for birthdays, anniversaries, and other special events using Twilio.'>
 
 <p align='center'>Whispered Wishes is a Python-based event reminder application that sends personalized SMS reminders for birthdays, anniversaries, and other special events using Twilio. The goal is to help you stay connected to your loved ones by sending you reminders to celebrate their special moments.<br/>
 
