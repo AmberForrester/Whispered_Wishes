@@ -54,7 +54,7 @@ _The standard shell of Python, or REPL (Read-Eval-Print Loop) allows you to run 
 - Seamless integration with Twilio for sending text messages.
 - Easy-to-manage contact list with personalized memories.
 - Graceful error handling for incomplete or incorrectly formatted data.
-
+<br/>
 
 
 ## Installation
