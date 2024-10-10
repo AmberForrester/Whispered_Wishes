@@ -90,11 +90,14 @@ Navigate to the project directory and install the dependencies:
 
 ![Project Structure](/images/WW_Structure.png)
 
+<p align="right">(<a href="#readme-top">top of page</a>)</p>
+
 4. **Set Up Twilio**
 
     1. **Create a Twilio Account:**
     - Sign up for free at [Twilio](https://www.twilio.com/en-us) and log in.
     - Get your **Account SID, Auth Token,** and a **Twilio Phone Number.**
+
 
     2. **Create the `.env` file:**
     - In the project's root directory, create a new file named `.env`.
