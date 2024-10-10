@@ -116,15 +116,15 @@ Navigate to the project directory and install the dependencies:
 
 3. **Add `.env` to `.gitignore`**
 
-To ensure your sensitive information does not get committed to version control:
+> [!CAUTION]
+> To ensure your sensitive information does not get committed to version control:
   - Open (or create) the `.gitignore` file in the root directory.
   - Add the following line to the file:
 ```
 .env
-venv/
 ```
-> [!CAUTION]
-> This step will prevent the `.env` file from being tracked by Git and keep your sensitive credentials secure.
+
+This step will prevent the `.env` file from being tracked by Git and keep your sensitive credentials secure. 
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
