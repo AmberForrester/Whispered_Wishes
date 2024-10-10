@@ -110,8 +110,8 @@ Navigate to the project directory and install the dependencies:
 
 > [!CAUTION]
 > To ensure your sensitive information does not get committed to version control:
-    - Open (or create) the `.gitignore` file in the root directory.
-    - Add the following line to the file:
+  - Open (or create) the `.gitignore` file in the root directory.
+  - Add the following line to the file:
 ```
 .env
 ```
